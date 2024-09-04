@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Server Parameters</string>
+			<key>FooterText</key>
+			<string>Incorrect settings will likely cause the app to crash on startup. You can reset a setting to its default by clearing the corresponding text field.</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Key</key>
+			<string>ServerEndpoint</string>
+			<key>Title</key>
+			<string>Server URL</string>
+            <key>KeyboardType</key>
+            <string>URL</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Key</key>
+			<string>RSAKey</string>
+			<key>Title</key>
+			<string>Public Key</string>
+            <key>AutocapitalizationType</key>
+            <string>None</string>
+            <key>AutocorrectionType</key>
+            <string>No</string>
+		</dict>
+	</array>
+</dict>
+</plist>
